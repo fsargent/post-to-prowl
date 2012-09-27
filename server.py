@@ -73,5 +73,5 @@ def post_alert(APIKEY, description):
 root = Resource()
 root.putChild("webhook", webhook())
 factory = Site(root)
-reactor.listenTCP(options.port, factory)
+reactor.listenTCP(int(options.port), factory)
 reactor.run()

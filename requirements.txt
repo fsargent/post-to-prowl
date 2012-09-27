@@ -6,3 +6,4 @@ virtualenv-clone==0.2.4
 virtualenvwrapper==3.5
 wsgiref==0.1.2
 zope.interface==4.0.1
+httplib2
